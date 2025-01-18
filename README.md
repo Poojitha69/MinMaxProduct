@@ -36,7 +36,7 @@ public class MinMaxProductCheck {
 
         // Output the result
         boolean result = isMultipleOfMin && isMultipleOfMax;
-        System.out.println("Is the product of min and max a multiple of each other? " + result);
+        System.out.println(result);
 
         scanner.close();
     }
